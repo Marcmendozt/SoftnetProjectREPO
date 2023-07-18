@@ -1,0 +1,3 @@
+@Imports APISoftnetVB.Areas.HelpPage.ModelDescriptions
+@ModelType SimpleTypeModelDescription
+@Model.Documentation

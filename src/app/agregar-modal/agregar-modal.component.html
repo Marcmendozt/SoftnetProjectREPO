@@ -1,0 +1,84 @@
+<h2>Agregar Nuevo Usuario y Detalle</h2>
+<div class="form-container">
+<mat-tab-group>
+  <mat-tab label="Usuario">
+    <form [formGroup]="formularioUsuario">
+        <mat-form-field>
+            <mat-label>Tipo de Documento</mat-label>
+            <mat-select placeholder="Seleccione un tipo">
+              <mat-option value="DNI">DNI</mat-option>
+              <mat-option value="CARNET DE EXTRANJERIA">CARNET DE EXTRANJERIA</mat-option>
+              <mat-option value="RUC">RUC</mat-option>
+              <mat-option value="PASAPORTE">PASAPORTE</mat-option>
+            </mat-select>
+          </mat-form-field>
+          
+          <div class="spacer"></div>
+
+          <mat-form-field>
+            <mat-label>Documento de Identidad</mat-label>
+            <input matInput  placeholder="Documento de Identidad">
+          </mat-form-field>
+          <div class="spacer"></div>
+          <mat-form-field>
+            <mat-label>Nombres </mat-label>
+            <input matInput  placeholder="Documento de Identidad">
+          </mat-form-field>
+          <div class="spacer"></div>
+          <mat-form-field>
+            <mat-label>Apellidos </mat-label>
+            <input matInput  placeholder="Documento de Identidad">
+          </mat-form-field>
+          <div class="spacer"></div>
+          <mat-form-field>
+            <input matInput placeholder="Password" [type]="hide ? 'password' : 'text'"  required>
+            <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            <mat-hint *ngIf="passwordInput && !passwordInput.value">Ingresar clave</mat-hint>
+          </mat-form-field>
+          <div class="spacer"></div>
+          <mat-form-field>
+            <mat-label>Telefono </mat-label>
+            <input matInput  placeholder="Número de teléfono">
+          </mat-form-field>
+          <div class="spacer"></div>
+          <mat-checkbox checked disabled>Activo</mat-checkbox>
+
+    </form>
+  </mat-tab>
+
+  <mat-tab label="Detalle">
+    <form [formGroup]="formularioDetalle">
+  
+      <mat-form-field>
+        <mat-label>EMPRESA</mat-label>
+        <input matInput value="Softnet Perú" disabled>
+      </mat-form-field>
+      <div class="spacer"></div>
+      <mat-form-field>
+        <mat-label>CARGO</mat-label>
+        <input matInput placeholder="INGRESAR CARGO">
+      </mat-form-field>
+      <div class="spacer"></div>
+      <mat-form-field>
+        <mat-label>CORREO</mat-label>
+        <input matInput placeholder="INGRESAR CORREO">
+      </mat-form-field>
+      <div class="spacer"></div>
+      
+      
+      <img src='https://cdn-icons-png.flaticon.com/512/401/401156.png'  style="width: 30%; height: auto;" alt='image'>
+
+ 
+      
+    
+      
+
+    </form>
+  </mat-tab>
+</mat-tab-group>
+<div class="spacer"></div>
+<div class="modal-actions">
+  <button mat-button (click)="cerrarModal()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="guardarRegistro()">Guardar</button>
+</div>
+</div>

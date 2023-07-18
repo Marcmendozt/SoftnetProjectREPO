@@ -1,0 +1,37 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Esto asegura que el contenedor ocupe toda la altura disponible */
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+  }
+  
+
+  .mat-form-field + .mat-form-field {
+    margin-top: 10px; /* Espacio entre los campos de formulario */
+  }
+
+  /* agregar-modal.component.css */
+
+/* Aumentar el ancho del mat-tab-group */
+.mat-tab-group {
+    width: 600px;
+  }
+  
+  /* Aumentar la altura del mat-tab-group */
+  .mat-tab-group .mat-tab-header {
+    height: 60px;
+  }
+  
+  /* Aumentar el tamaño del contenido de las pestañas */
+  .mat-tab-group .mat-tab-body-content {
+    height: 300px;
+  }
+  
+  

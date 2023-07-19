@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Pe6ha4jlAauC4YIkWTmpe6zLzU58X5edWjJ+LncLSFWvtsYfJIM2t90BfYmLBE/VjFe1Akyl0YdX9fWPFougQ==",
+  "dgSpecHash": "/8U37LFaXRefU1QOK6de9T9Qm/zbVW+W1A31HZSDMeflyxANxnQ+iz3im5QdfF3q+TKLSb3ndrdwbWrt+yMuhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mirio\\Desktop\\SoftnetProject\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj",
+  "projectFilePath": "C:\\Users\\Mirio\\Desktop\\Softnet\\SoftnetProjectREPO\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mirio\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Mirio\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

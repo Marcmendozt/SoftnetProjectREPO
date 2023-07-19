@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mirio\\Desktop\\SoftnetProject\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj": {}
+    "C:\\Users\\Mirio\\Desktop\\Softnet\\SoftnetProjectREPO\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mirio\\Desktop\\SoftnetProject\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj": {
+    "C:\\Users\\Mirio\\Desktop\\Softnet\\SoftnetProjectREPO\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mirio\\Desktop\\SoftnetProject\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj",
+        "projectUniqueName": "C:\\Users\\Mirio\\Desktop\\Softnet\\SoftnetProjectREPO\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj",
         "projectName": "APISoftnetCS",
-        "projectPath": "C:\\Users\\Mirio\\Desktop\\SoftnetProject\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj",
+        "projectPath": "C:\\Users\\Mirio\\Desktop\\Softnet\\SoftnetProjectREPO\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\APISoftnetCS.csproj",
         "packagesPath": "C:\\Users\\Mirio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mirio\\Desktop\\SoftnetProject\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\obj\\",
+        "outputPath": "C:\\Users\\Mirio\\Desktop\\Softnet\\SoftnetProjectREPO\\BACK\\CSHARP\\APISoftnetCS\\APISoftnetCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mirio\\AppData\\Roaming\\NuGet\\NuGet.Config",

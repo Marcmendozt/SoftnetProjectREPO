@@ -1,0 +1,25 @@
+.highlight-row {
+    background-color: #c0e6ff; 
+  }
+  
+  
+.checked-icon {
+  color: green; 
+}
+
+
+.unchecked-icon {
+  color: red;
+}
+
+
+
+.mat-checkbox {
+  min-width: 32px;
+}
+
+
+.mat-cell mat-checkbox,
+.mat-header-cell mat-checkbox {
+  margin: 0;
+}
